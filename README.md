@@ -1,12 +1,12 @@
 ### EX NO : 01
 # <p align="center">Developing a Neural Network Regression Model </p>
 
-## AIM
+## AIM :
 
 To develop a neural network regression model for the given dataset.
 
 
-## Neural Network Model
+## Neural Network Model :
 
 Neural networks consist of simple input/output units called neurons. These units are interconnected and each connection has a weight associated with it. Neural networks are flexible and can be used for both classification and regression. In this article, we will see how neural networks can be applied to regression problems.
 
@@ -14,12 +14,12 @@ Regression helps in establishing a relationship between a dependent variable and
 
 Build your training and test set from the dataset, here we are making the neural network 3 hidden layer with activation layer as relu and with their nodes in them. Now we will fit our dataset and then predict the value.
 
-## Neural Network Model
+## Neural Network Model :
 
 ![image](https://user-images.githubusercontent.com/93427246/224904957-962c297b-72c3-43f9-b361-22e9b7efb8b9.png)
 
 
-## DESIGN STEPS
+## DESIGN STEPS :
 
 ### STEP 1:
 
@@ -49,8 +49,11 @@ Plot the performance plot
 
 Evaluate the model with the testing data.
 
-## PROGRAM
-```py
+## PROGRAM :
+Developed By : **Nithishkumar P**
+</br>
+Register No. : **212221230070**
+```py 
 from google.colab import auth
 import gspread
 from google.auth import default
@@ -116,23 +119,23 @@ ai.predict(z_1)
 
 ```
 
-## Dataset Information
+## Dataset Information :
 ![image](https://user-images.githubusercontent.com/93427246/224903108-600c4ce3-42ef-44bd-b0e5-770bbc90a9c7.png)
 
 
-## OUTPUT
+## OUTPUT :
 
-### Training Loss Vs Iteration Plot
+### Training Loss Vs Iteration Plot :
 
 ![image](https://user-images.githubusercontent.com/93427246/224903390-501f127b-1536-4844-afe3-1dff611dae17.png)
 
-### Test Data Root Mean Squared Error
+### Test Data Root Mean Squared Error :
 
 ![image](https://user-images.githubusercontent.com/93427246/224903932-7e06c013-2f5a-4d10-97af-6a18c71b3072.png)
 
-### New Sample Data Prediction
+### New Sample Data Prediction :
 
 ![image](https://user-images.githubusercontent.com/93427246/224904405-6ec36239-184e-4c41-9d30-7e9010818ffa.png)
 
-## RESULT
+## RESULT :
 Thus a neural network regression model for the given dataset is written and executed successfully.
